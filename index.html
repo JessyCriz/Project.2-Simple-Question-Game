@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="app">
-        <h1>Quiz Game</h1>
-        <div class="quiz">
-            <h4 id="question">What is the capital of the Philippines?</h4>
-            <div id="answers">
-                <button class="btn">Baguio</button>
-                <button class="btn">Manila</button>
-                <button class="btn">Davao</button>
-                <button class="btn">Cebu</button>
-            </div>
-            <button id="next-btn">Next</button>
+    <h1>Quiz Game</h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <ul id="options">
+                <button id="option1"></button>
+                <button id="option2"></button>
+                <button id="option3"></button>
+                <button id="option4"></button>
+            </ul>
         </div>
-    </div>
+        <button id="submit">Next</button>
+        <p id="score">Score: 0</p>
+    <script src="script.js"></script>
 </body>
 </html>
