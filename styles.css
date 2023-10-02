@@ -14,7 +14,8 @@ body {
     padding: 30px;
 }
 
-div {
+#question-container {
     background-color: rgb(255, 255, 255);
-   
+    padding: 20px;
+    border-radius: 10px;
 }
